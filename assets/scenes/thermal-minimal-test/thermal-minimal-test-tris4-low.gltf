@@ -1,0 +1,449 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_lights_punctual"
+    ],
+    "extensionsRequired" : [
+        "KHR_lights_punctual"
+    ],
+    "extensions" : {
+        "KHR_lights_punctual" : {
+            "lights" : [
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 1000,
+                    "type" : "point",
+                    "name" : "Light"
+                }
+            ]
+        }
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "glTF2ExportSettings" : {
+                    "export_animations" : 0,
+                    "export_cameras" : 1,
+                    "export_colors" : 0,
+                    "export_extras" : 1,
+                    "export_format" : "GLTF_SEPARATE",
+                    "export_lights" : 1,
+                    "export_morph" : 0,
+                    "export_normals" : 1,
+                    "export_skins" : 0,
+                    "export_texcoords" : 0
+                },
+                "thermal_tool" : {
+                    "t_01_kelvin" : 0
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                1,
+                3,
+                4,
+                5,
+                6,
+                7
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 0
+                }
+            },
+            "name" : "Light_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "camera" : 0,
+            "name" : "Camera_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Camera",
+            "rotation" : [
+                0.33081838488578796,
+                -0.6615661978721619,
+                0.4063851833343506,
+                0.5364144444465637
+            ],
+            "translation" : [
+                -26.877647399902344,
+                15.300725936889648,
+                -6.090329647064209
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Plane"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Cube",
+            "rotation" : [
+                0,
+                -0.2198461890220642,
+                0,
+                0.9755345582962036
+            ],
+            "translation" : [
+                -0.5999999642372131,
+                3,
+                -2.0999999046325684
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "Cube.001",
+            "rotation" : [
+                -0.15786166489124298,
+                0.15786167979240417,
+                -0.6892603039741516,
+                0.6892603039741516
+            ],
+            "translation" : [
+                0.18999993801116943,
+                1,
+                1.7739603519439697
+            ]
+        },
+        {
+            "mesh" : 3,
+            "name" : "Plane.001",
+            "rotation" : [
+                0.8083300590515137,
+                0.16821683943271637,
+                -0.3143964111804962,
+                0.4684664011001587
+            ],
+            "translation" : [
+                -5.019392490386963,
+                8.522778511047363,
+                -6.392084121704102
+            ]
+        }
+    ],
+    "cameras" : [
+        {
+            "name" : "Camera",
+            "perspective" : {
+                "aspectRatio" : 1.7777777777777777,
+                "yfov" : 0.39959652046304894,
+                "zfar" : 100,
+                "znear" : 0.10000000149011612
+            },
+            "type" : "perspective"
+        }
+    ],
+    "meshes" : [
+        {
+            "extras" : {
+                "kelvin" : 0,
+                "temperature-fixed" : 0,
+                "diffuse-reflectance" : 0.5,
+                "specular-reflectance" : 0,
+                "specular-emission" : 0,
+                "thickness" : 1,
+                "density" : 1,
+                "heat-capacity" : 1,
+                "heat-conductivity" : 0,
+                "traceable" : 0
+            },
+            "name" : "Plane.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        },
+        {
+            "extras" : {
+                "kelvin" : 0,
+                "temperature-fixed" : 0,
+                "diffuse-reflectance" : 0.5,
+                "specular-reflectance" : 0,
+                "specular-emission" : 0,
+                "thickness" : 1,
+                "density" : 1,
+                "heat-capacity" : 1,
+                "heat-conductivity" : 0,
+                "traceable" : 0
+            },
+            "name" : "Cube",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5
+                }
+            ]
+        },
+        {
+            "extras" : {
+                "kelvin" : 0,
+                "temperature-fixed" : 0,
+                "diffuse-reflectance" : 0.5,
+                "specular-reflectance" : 0,
+                "specular-emission" : 0,
+                "thickness" : 1,
+                "density" : 1,
+                "heat-capacity" : 1,
+                "heat-conductivity" : 0,
+                "traceable" : 0
+            },
+            "name" : "Cube.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 6,
+                        "NORMAL" : 7
+                    },
+                    "indices" : 5
+                }
+            ]
+        },
+        {
+            "extras" : {
+                "kelvin" : 300,
+                "temperature-fixed" : 0,
+                "diffuse-reflectance" : 0.5,
+                "specular-reflectance" : 0,
+                "specular-emission" : 0,
+                "thickness" : 1,
+                "density" : 1,
+                "heat-capacity" : 1,
+                "heat-conductivity" : 0,
+                "traceable" : 0
+            },
+            "name" : "Plane.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 8,
+                        "NORMAL" : 9
+                    },
+                    "indices" : 10
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 81,
+            "max" : [
+                7,
+                0,
+                7
+            ],
+            "min" : [
+                -7,
+                0,
+                -7
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 81,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 384,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 42,
+            "max" : [
+                1,
+                3,
+                1
+            ],
+            "min" : [
+                -1,
+                -3,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 42,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 240,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 42,
+            "max" : [
+                1,
+                3,
+                1
+            ],
+            "min" : [
+                -1,
+                -3,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 42,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 9,
+            "max" : [
+                1.0385264158248901,
+                0.19460085034370422,
+                1.0205754041671753
+            ],
+            "min" : [
+                -1.0385262966156006,
+                -0.19460119307041168,
+                -1.0205751657485962
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 9,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 10,
+            "componentType" : 5123,
+            "count" : 24,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 972,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 972,
+            "byteOffset" : 972
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 768,
+            "byteOffset" : 1944
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 504,
+            "byteOffset" : 2712
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 504,
+            "byteOffset" : 3216
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 480,
+            "byteOffset" : 3720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 504,
+            "byteOffset" : 4200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 504,
+            "byteOffset" : 4704
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108,
+            "byteOffset" : 5208
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 108,
+            "byteOffset" : 5316
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 5424
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 5472,
+            "uri" : "thermal-minimal-test-tris4-low.bin"
+        }
+    ]
+}

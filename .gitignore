@@ -1,0 +1,20 @@
+# project
+_project/
+_bin/
+_*/
+assets/shader/cache/
+CMakeLists.txt.user
+*.cfg
+build/
+
+#intelij
+.idea/
+
+# vscode
+.vscode
+
+# macos
+.DS_Store
+
+#app
+cache/

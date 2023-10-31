@@ -1,0 +1,2 @@
+Win32: v1.6.2112 
+Linux: Dezember 2021 commit dc7789738c51994559424c67629acc90f4ba69ad

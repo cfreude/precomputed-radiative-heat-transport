@@ -1,0 +1,270 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_lights_punctual"
+    ],
+    "extensionsRequired" : [
+        "KHR_lights_punctual"
+    ],
+    "extensions" : {
+        "KHR_lights_punctual" : {
+            "lights" : [
+                {
+                    "color" : [
+                        1,
+                        1,
+                        1
+                    ],
+                    "intensity" : 1000,
+                    "type" : "point",
+                    "name" : "Light"
+                }
+            ]
+        }
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "glTF2ExportSettings" : {
+                    "export_animations" : 0,
+                    "export_cameras" : 1,
+                    "export_colors" : 0,
+                    "export_extras" : 1,
+                    "export_format" : "GLTF_EMBEDDED",
+                    "export_lights" : 1,
+                    "export_texcoords" : 0
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                1,
+                3,
+                4,
+                5
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "extensions" : {
+                "KHR_lights_punctual" : {
+                    "light" : 0
+                }
+            },
+            "name" : "Light_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "camera" : 0,
+            "name" : "Camera_Orientation",
+            "rotation" : [
+                -0.7071067690849304,
+                0,
+                0,
+                0.7071067690849304
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Plane"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Icosphere",
+            "rotation" : [
+                -0.2741071879863739,
+                0.17659705877304077,
+                -0.7537358403205872,
+                0.5705795288085938
+            ],
+            "scale" : [
+                2,
+                2,
+                2
+            ]
+        }
+    ],
+    "cameras" : [
+        {
+            "name" : "Camera",
+            "perspective" : {
+                "aspectRatio" : 1.7777777777777777,
+                "yfov" : 0.39959652046304894,
+                "zfar" : 100,
+                "znear" : 0.10000000149011612
+            },
+            "type" : "perspective"
+        }
+    ],
+    "meshes" : [
+        {
+            "extras" : {
+                "kelvin" : 300
+            },
+            "name" : "Plane",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2
+                }
+            ]
+        },
+        {
+            "extras" : {
+                "kelvin" : 0
+            },
+            "name" : "Icosphere",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 3,
+                        "NORMAL" : 4
+                    },
+                    "indices" : 5
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 14,
+            "max" : [
+                1,
+                0,
+                1
+            ],
+            "min" : [
+                -1,
+                0,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 14,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 48,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 15,
+            "max" : [
+                0.9961541891098022,
+                1.0252197980880737,
+                0.8957511186599731
+            ],
+            "min" : [
+                -0.9961540699005127,
+                -1.0252199172973633,
+                -0.8957511186599731
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 15,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5123,
+            "count" : 78,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 168,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 168,
+            "byteOffset" : 168
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 180,
+            "byteOffset" : 432
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 180,
+            "byteOffset" : 612
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 156,
+            "byteOffset" : 792
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 948,
+            "uri" : "data:application/octet-stream;base64,AACAPwAAAAAAAIC/AACAvwAAAAAAAIC/AACAPwAAAAAAAIA/AACAvwAAAAAAAIA/AACAvwAAAAAAAACAAAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AACAPwAAAAAAAACAAAAAAAAAAAAAAACAAAAAvwAAAAAAAIC/AACAvwAAAAAAAAC/AAAAAAAAAAAAAAC/AAAAvwAAAAAAAACAAAAAvwAAAAAAAAC/AAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAD+fz8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAAAAAAgD8AAACAAAAFAAsACwAJAA0ABgAIAAwAAgAIAAYADQABAAoADAAKAAQACAANAAwACwAIAAcABwAAAAsACwAFAAkABAADAAwAAwAGAAwAAgAHAAgADQAJAAEADAANAAoACAALAA0A9gN/P2uzmD4roUa9i8/SPopvyD69S18/JKkwP7ZUGb/ATv8+z2IhP6jLE7+VExi/5WChPnFb2j7yT2W/bl44Pmc6gz/XjSs84mChvnFb2r7yT2U/bF44vmg6g7/BjSu8ic/SvopvyL69S1+/JKkwv7ZUGT+8Tv++z2Ihv6jLEz+TExg/9AN/v2uzmL4voUY9dAgNv8Rz1D2OeS+/3DU0v3qRsL6q4dK+jNZXvwL2GT6Wema+6vl0vyWtkr5+wT49lYHKvoGJwL6tgVa/U7MpvydLEz/qQfW+Ngcbvxz5DT8kFxI/NgWbvqTB0b65SVw/YhkxvvgffL9JgSS8NgWbPqTB0T65SVy/YhkxPvgffD9JgSQ8lYHKPoGJwD6tgVY/U7MpPydLE7/qQfU+NgcbPxz5Db8kFxK/6vl0PyWtkj5+wT69P0MfP+Dh772MKUY/l4FLP49lxz7cJe4+571zP1zZLb4EIYI+AAACAAEAAQAFAAAAAAADAAIAAAAEAAMAAAAFAAQAAQAKAAUAAgAGAAEAAwAHAAIABAAIAAMABQAJAAQAAQAGAAoAAgAHAAYAAwAIAAcABAAJAAwABAAMAAgABQAKAAkABgALAAoABwALAAYACAANAAcADQALAAcACQAOAAwACgALAA4ACgAOAAkADgALAA0ADgANAAwADAANAAgA"
+        }
+    ]
+}
