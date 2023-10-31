@@ -1,6 +1,13 @@
 Tamashii Renderer - Thermal Simulation
 ==================================
 
+Code for the paper "[Precomputed Radiative Heat Transport for Efficient Thermal Simulation](https://doi.org/10.1111/cgf.14957)"
+by [Christian Freude](https://www.cg.tuwien.ac.at/staff/ChristianFreude), [David Hahn](https://www.cg.tuwien.ac.at/staff/DavidHahn), [Florian Rist](https://gcd.tuwien.ac.at/?p=502), [Lukas Lipp](https://www.cg.tuwien.ac.at/staff/LukasLipp) and [Michael Wimmer](https://www.cg.tuwien.ac.at/staff/MichaelWimmer)
+
+Based on the Vulkan rendering framework by [Lukas Lipp](https://www.cg.tuwien.ac.at/staff/LukasLipp).
+
+==================================
+
 ### Coding Conventions
 [Please read carefully](CODING_CONVENTIONS.md)
 
